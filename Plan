@@ -1,0 +1,11 @@
+This is the plan, 
+I am developing a machine learning model where the predictor variables are derived from sentiment analysis data, and the target variable is the stock price. 
+The sentiment analysis data, encompassing aspects like social media sentiment, analyst ratings, or news headlines, will be used to train the model to predict future movements in stock prices. 
+This approach treats stock prices as the dependent variable, influenced by the independent variables captured through various sentiment indicators.
+
+
+Definition of "Magnificent 7 Stocks": Meta, Microsoft, Apple, Amazon, Tesla, Nvdia, Google (M7)
+News Sentiment Analysis: I need to get data from analysts, social media and news headline anything that mentions M7, and somehow distill it into a quantitative value
+Correlation with Price Action: After interpeting the data, need to figure out if it affeccts the price (go up or down)
+Data Collection and Analysis Methods: Try to scrape internet, the use some form of language interpretation to get sentiment
+Interpretation of Results: Using either genetic programming or deep learning try to find a possible combination of coefficients that will allow the model to predict the price action of these stocks
